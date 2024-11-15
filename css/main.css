@@ -1,0 +1,162 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 2rem;
+    color: white;
+    background-color: blueviolet;
+    text-align: center;
+    padding: 30px 0px;
+}
+
+footer p {
+    font-size: 1rem;
+    line-height: 2rem;
+    color: white;
+    background-color: blueviolet;
+    text-align: center;
+    padding: 30px 0px;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Employee container with grid layout */
+.employee {
+    display: grid;
+    gap: 30px; /* Space between the items */
+    margin: 20px;
+    padding: 0 10px; /* Add padding to prevent edge-to-edge content */
+}
+
+/* Each employee container */
+.em-con {
+    background: linear-gradient(191deg, rgba(104,11,154,1) 0%, rgba(223,214,230,1) 63%);
+    padding: 20px;
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100%; 
+    max-width: 250px;
+    margin: 0 auto; 
+}
+
+.em-con img {
+    width: 120px;
+    height: auto;
+}
+
+.em-img {
+    background-color: rgba(255, 255, 255, 0.795);
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+.title p {
+    font-size: 1.3rem;
+    color: rgb(76, 1, 103);
+    font-weight: bold;
+}
+
+.name {
+    margin-top: 20px;
+    background-color: blueviolet;
+    border-radius: 20px;
+    padding: 8px 0px;
+}
+
+.name a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.name a:hover {
+    text-decoration: underline;
+    color: rgb(238, 34, 238);
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .employee {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 768px) {
+    .employee {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1200px) {
+    .employee {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+
+.details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.795);
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 50%; 
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.details img {
+    width: 20vw;
+    height: auto;
+    border-radius: 10px;
+}
+
+.right-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.em-name h2 {
+    margin: 0;
+}
+
+.title p {
+    margin: 5px 0;
+}
+
+.back-button {
+    margin-top: 30px;
+}
+
+.back-button a {
+    text-decoration: none;
+    color: white;
+    background-color: blueviolet; 
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.back-button a:hover {
+    text-decoration: underline;
+}
+
+.details p {
+    margin-top: 30px;
+}
+
+.details span {
+    color:  blueviolet; 
+}
+
+
