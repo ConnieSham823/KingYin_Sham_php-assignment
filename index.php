@@ -20,6 +20,7 @@ $results = mysqli_query($connect, $query);
 
 <main>
     <section class="employee">
+        <h2 class="hidden">Emloyee</h2>
         <?php
         while($row = mysqli_fetch_array($results)) {
             echo '

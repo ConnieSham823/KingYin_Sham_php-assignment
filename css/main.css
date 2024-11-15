@@ -23,15 +23,13 @@ footer p {
     display: none;
 }
 
-/* Employee container with grid layout */
 .employee {
     display: grid;
-    gap: 30px; /* Space between the items */
+    gap: 30px; 
     margin: 20px;
-    padding: 0 10px; /* Add padding to prevent edge-to-edge content */
+    padding: 0 10px; 
 }
 
-/* Each employee container */
 .em-con {
     background: linear-gradient(191deg, rgba(104,11,154,1) 0%, rgba(223,214,230,1) 63%);
     padding: 20px;
